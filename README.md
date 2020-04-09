@@ -14,7 +14,7 @@ lydia.NewClient Method takes an API_KEY and returns an instance of lydiaAI. this
 
 # Example 
 
-`
+
 client := lydia.NewClient(API_KEY)
 res,err := client.CreateSession()
 if err != nil {
@@ -26,5 +26,5 @@ if err != nil {
     fmt.Println(err)
 }
 fmt.Println("Lydia: "+out.Payload.Output)
-`
+
 
