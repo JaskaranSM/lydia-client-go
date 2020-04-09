@@ -5,7 +5,7 @@ import (
     "encoding/json"
     "errors"
     "io/ioutil"
-    "types"
+    "github.com/jaskaranSM/lydia-client-go/types"
 )
 
 func constructUrl(url string, key string,params string) string{
