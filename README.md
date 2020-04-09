@@ -10,6 +10,8 @@ go get -u github.com/jaskaranSM/lydia-client-go
 
 # Usage
 
+Grab API_KEY from https://intellivoid.net/
+
 lydia.NewClient Method takes an API_KEY and returns an instance of lydiaAI. this client have CreateSession and ThinkThought Methods which can be used to consume session creation and thought endpoints of the API.
 
 
